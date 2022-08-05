@@ -1,0 +1,50 @@
+{
+	"name": "volar-snippets",
+	"version": "0.0.0",
+	"license": "MIT",
+	"publisher": "guozhenyi",
+	"displayName": "Volar Snippets",
+	"description": "Volar Snippets",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Snippets",
+		"Programming Languages"
+	],
+	"keywords": [
+		"vue snippets",
+		"volar snippets",
+		"javascript",
+		"snippet",
+		"vue",
+		"vue 2",
+		"vue 3",
+		"volar"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/guozhenyi/vscode-volar-snippets"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "vue",
+				"aliases": [
+					"Vue",
+					"vue"
+				],
+				"extensions": [
+					".vue"
+				]
+			}
+		],
+		"snippets": [
+			{
+				"language": "vue",
+				"path": "./snippets/vue.json"
+			}
+		]
+	}
+}

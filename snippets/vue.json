@@ -1,0 +1,68 @@
+{
+  "volar.vue-init": {
+    "prefix": "<vue-init>",
+    "body": [
+      "<template>",
+      "\t$0",
+      "</template>\n",
+      "<script>",
+      "export default {\n",
+      "}",
+      "</script>\n",
+      "<style>\n",
+      "</style>"
+    ],
+    "description": "vue init template"
+  },
+  "volar.vue-setup": {
+    "prefix": "<vue-setup>",
+    "body": [
+      "<template>",
+      "\t$0",
+      "</template>\n",
+      "<script setup>\n",
+      "</script>\n",
+      "<style lang=\"less\">\n",
+      "</style>"
+    ],
+    "description": "vue setup template"
+  },
+  "volar.vue-init-sample": {
+    "prefix": "<vue-init-sample>",
+    "body": [
+      "<template>",
+      "\t<div>{{ count }}</div>",
+      "</template>\n",
+      "<script>",
+      "export default {",
+      "\tdata() {",
+      "\t\treturn {",
+      "\t\t\tcount: 0",
+      "\t\t}",
+      "\t}",
+      "};",
+      "</script>\n",
+      "<style lang=\"less\">\n",
+      "</style>"
+    ],
+    "description": "vue init sample"
+  },
+  "volar.vue-setup-sample": {
+    "prefix": "<vue-setup-sample>",
+    "body": [
+      "<template>",
+      "\t<div>",
+      "\t\t<h2>{{ count }}</h2>",
+      "\t\t<div><button @click=\"count++\" class=\"btn\">click</button></div>",
+      "\t</div>",
+      "</template>\n",
+      "<script setup>",
+      "\timport { ref } from 'vue';",
+      "\tconst count = ref(0);",
+      "</script>\n",
+      "<style lang=\"less\">\n",
+      "</style>"
+    ],
+    "description": "vue setup sample"
+  }
+}
